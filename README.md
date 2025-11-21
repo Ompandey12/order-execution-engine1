@@ -147,6 +147,24 @@ Server listens on `http://localhost:3000`.
 
 ---
 
+## 🌐 Live Deployment
+
+**Public API**: https://order-execution-engine1.onrender.com
+
+**Endpoints:**
+- Health Check: `GET /health`
+- Create Order: `POST /api/orders/execute`
+- WebSocket: `wss://order-execution-engine1.onrender.com/ws/orders/:orderId`
+
+**Test it:**
+```bash
+curl https://order-execution-engine1.onrender.com/health
+```
+
+**Note:** Free tier may have cold starts (~30s delay on first request after 15min inactivity).
+
+---
+
 ## API Usage
 
 ### POST `/api/orders/execute`
