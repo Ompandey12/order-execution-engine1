@@ -17,11 +17,11 @@
     ]
   },
   "include": [
-    "src",
-    "__tests__"
+    "src"
   ],
   "exclude": [
     "node_modules",
-    "dist"
+    "dist",
+    "__tests__"
   ]
 }
