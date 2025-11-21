@@ -7,6 +7,19 @@ Backend Task 2 implementation: **market order** execution engine with DEX routin
 
 ---
 
+## 🎬 Demo Video
+
+**Watch the system in action**: https://www.youtube.com/watch?v=uLFHS1HfomE
+
+The video demonstrates:
+- Creating market orders via Postman
+- Real-time WebSocket status updates (pending → routing → building → submitted → confirmed)
+- DEX routing decisions (Raydium vs Meteora) in server logs
+- Concurrent order processing with BullMQ queue
+- All 24 tests passing
+
+---
+
 ## Tech Stack
 
 - **Node.js + TypeScript**
